@@ -1,0 +1,44 @@
+section{
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    background-color:#F5F5F1 ;
+}
+
+section img {
+    margin: 15px 0px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+p:before {
+    content: attr(type);
+}
+
+.botonesOpcion {
+    display: grid;
+    grid-template-columns: repeat(1,100px);
+}
+.textos {
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+section button{
+    display: block;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
